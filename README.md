@@ -48,7 +48,7 @@ We use producer-consumer model and create a thread pool to handle the download t
 ![multithreading](./pics/multithreading.png)
 
 ### Manage local data with SQLite3 DB
-We store the historical data fetched from Yahoo Finance to a local sqlite3 databse **finance.db**. After that, we can load data from db file and the time consumption decrease from 660s to 13s. The project is then more obust to Internet/Yahoo API conditions.
+We store the historical data fetched from Yahoo Finance to a local sqlite3 databse **finance.db**. After that, we can load data from db file and the time consumption decrease from 660s to 13s. The project is then more robust to Internet/Yahoo API conditions.
 
 StockInfo table
 
